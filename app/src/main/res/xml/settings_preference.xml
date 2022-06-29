@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false">
+
+    <PreferenceCategory
+        app:title="Account"
+        app:iconSpaceReserved="false">
+    </PreferenceCategory>
+
+        <PreferenceScreen
+            android:key="@string/profile"
+            android:title="@string/profile"
+            app:iconSpaceReserved="false">
+
+            <intent
+                android:action="com.example.rumiapp.activities.ui.settings.SettingsProfileActivity"/>
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="@string/address"
+            android:title="@string/address"
+            app:iconSpaceReserved="false">
+
+            <intent
+                android:action="com.example.rumiapp.activities.ui.settings.AddressListActivity"/>
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="@string/language"
+            android:title="@string/language"
+            app:iconSpaceReserved="false">
+
+            <intent
+                android:action=""/>
+
+        </PreferenceScreen>
+
+        <SwitchPreference
+            android:key="@string/notification"
+            android:title="@string/notification"
+            app:iconSpaceReserved="false">
+
+            <intent
+                android:action=""/>
+
+        </SwitchPreference>
+
+    <PreferenceCategory
+        android:title="Other"
+        app:iconSpaceReserved="false">
+
+    </PreferenceCategory>
+
+        <PreferenceScreen
+            android:key=""
+            android:title="Informasi Toko"
+            app:iconSpaceReserved="false">
+
+            <intent
+                android:action=""/>
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key=""
+            android:title="Kebijakan Privasi"
+            app:iconSpaceReserved="false">
+
+            <intent
+                android:action=""/>
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key=""
+            android:title="Ketentuan Layanan"
+            app:iconSpaceReserved="false">
+
+            <intent
+                android:action=""/>
+
+        </PreferenceScreen>
+
+
+</PreferenceScreen>

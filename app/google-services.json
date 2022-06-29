@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "658500228586",
+    "project_id": "rumiapp-bba9d",
+    "storage_bucket": "rumiapp-bba9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658500228586:android:b5cab1f8d08c8c32ad4e93",
+        "android_client_info": {
+          "package_name": "com.example.rumiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658500228586-0q78r8018ankdbp44agf1u9fq16bd0pk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rumiapp",
+            "certificate_hash": "60b202be3a77dfd259cccdc7fee8c8792a33215b"
+          }
+        },
+        {
+          "client_id": "658500228586-5ibr3sjqvhhqft7s5emlfri4t4bic6kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzLgxjIt38K9-tVuppcDkk7LZQ1uLGpHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658500228586-5ibr3sjqvhhqft7s5emlfri4t4bic6kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

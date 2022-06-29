@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <style name="splashScreenTheme" parent="Theme.RUMIApp.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_image</item>
+    </style>
+    
+    <!-- Base application theme. -->
+    <style name="Theme.RUMIApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorThemeBrown</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorThemeBrown</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.RUMIApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="Theme.RUMIApp.TextInputLayout" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+
+        <item name="boxStrokeColor">@color/colorThemeBrown</item>
+        <item name="hintTextColor">@color/colorThemeBrown</item>
+        <item name="android:textColorHint">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="Theme.RUMIApp.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:paddingTop">@dimen/btn_padding</item>
+        <item name="android:paddingBottom">@dimen/btn_padding</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/colorThemeBrown</item>
+        <item name="android:textSize">@dimen/btn_textSize</item>
+    </style>
+    
+</resources>
