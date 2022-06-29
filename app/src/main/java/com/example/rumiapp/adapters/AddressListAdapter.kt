@@ -20,6 +20,8 @@ class AddressListAdapter(
     private val selectAddress: Boolean
 ): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
+    //test
+
     class AddressListViewHolder(private val binding: ItemAddressListBinding): RecyclerView.ViewHolder(binding.root) {
         fun bind(context: Context, address: Address, selectAddress: Boolean) {
             binding.apply {
